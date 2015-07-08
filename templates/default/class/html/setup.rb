@@ -1,5 +1,5 @@
 def init
-  @page_title = "#{object.name.to_s.gsub(/Controller/,"")} - #{options[:title]}"
+  @page_title = "#{resource_name(object)} - #{options[:title]}"
   sections :header, [T('docstring'), :method_details_list, [T('method_details')]]
 end
 

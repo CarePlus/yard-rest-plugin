@@ -1,4 +1,5 @@
 # Define custom tags
+YARD::Tags::Library.define_tag("Resource Name",                 :resource_name)
 YARD::Tags::Library.define_tag("URL for the Resource",          :resource)
 YARD::Tags::Library.define_tag("HTTP-Action for the Resource",  :action)
 
